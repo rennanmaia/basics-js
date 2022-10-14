@@ -119,3 +119,6 @@ function changeImage(myImage) {
 }
 ```
 
+## 9. JavaScript Style Guide
+
+Always use the same coding conventions for all your JavaScript projects. [Here](w3schools.com/js/js_conventions.asp) you find more details.
