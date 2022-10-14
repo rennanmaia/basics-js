@@ -33,3 +33,13 @@ let myVariable;
 myVariable = "Bob";
 let myVariable = "Bob";
 ```
+
+## 4. Comments
+### Comments could be added by using // for one line and /**/ for multiple lines
+```js
+// Comment of just one line
+
+/*
+  Comment of more than one line
+*/
+```
