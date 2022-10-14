@@ -22,20 +22,25 @@
       <article>
         <h2>Title 1</h2>
         <h3>Subtitle 1</h3>
-        <img src="images/example.jpg" />
+        <img src="images/example.jpg" onclick="changeImage(this)" />
         <p>Paragraph 1</p>
       </article>
 
       <article>
         <h2>Title 2</h2>
         <h3>Subtitle 2</h3>
-        <img src="images/example.jpg" />
+        <img src="images/example.jpg" onclick="changeImage(this)" />
         <p>Paragraph 2</p>
       </article>
 
-      <div class="sum">
+      <!-- <div class="sum">
         <button onclick="sum(5,10)">Executar soma de valores</button>
         <div id="sum_result"></div>
+      </div> -->
+
+      <div class="multiply">
+        <button onclick="multiply(this,5,10)">Executar multiplicação</button>
+        <div id="multiply_result"></div>
       </div>
     </main>
 
@@ -52,4 +57,12 @@
 
   // 3. Variables and functions
   // showAlert()
+
+  // 6. If .. else ..
+  // ifExample()
+
+  // 8. Events
+  // document.querySelector("html").addEventListener("click", function () {
+  //   alert("Ouch! Stop poking me!");
+  // });
 </script>

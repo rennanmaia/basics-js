@@ -66,3 +66,56 @@ function sum(a, b) {
   resultSumObject.textContent = c
 }
 ```
+
+### Strict equality (=\==) and Not, Does-not-equal (!, !==)
+
+## 6. Conditionals 
+
+### If .. else ..
+
+
+#### **`js/first-file.js`**
+``` js
+let iceCream = 'chocolate'
+
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!')
+} else {
+  alert('Awwww, but chocolate is my favorite…')
+}
+```
+
+## 7. Functions
+#### **`index.html`**
+``` html
+<div class="multiply">
+  <button onclick="multiply(this,5,10)">Executar multiplicação</button>
+  <div id="multiply_result"></div>
+</div>
+```
+#### **`js/first-file.js`**
+``` js
+function multiply(num1, num2) {
+  let result = num1 * num2;
+  return result;
+}
+```
+
+## 8. Events
+### 
+#### **`index.html`**
+``` html
+<img src="images/example.jpg" onclick="changeImage(this)" />
+```
+#### **`js/first-file.js`**
+``` js
+function changeImage(myImage) {
+  const mySrc = myImage.getAttribute('src')
+  if (mySrc === 'images/example.jpg') {
+    myImage.setAttribute('src', 'images/article-image.jpg')
+  } else {
+    myImage.setAttribute('src', 'images/example.jpg')
+  }
+}
+```
+
