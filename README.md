@@ -28,18 +28,41 @@ myHeading.textContent = 'Hello world!'
 
 ## 3.Variables
 ### 
-```js
+``` js
 let myVariable;
 myVariable = "Bob";
 let myVariable = "Bob";
 ```
+Data types can be viewed [here](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 
 ## 4. Comments
 ### Comments could be added by using // for one line and /**/ for multiple lines
-```js
+``` js
 // Comment of just one line
 
 /*
   Comment of more than one line
 */
+```
+
+## 5. Operators
+
+There are a lot more operators to explore, but this is enough for now. See Expressions and operators for a [complete list](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
+
+#### Addition 
+#### **`index.html`**
+
+``` html
+<div class="sum">
+  <button onclick="sum(5,10)">Executar soma de valores</button>
+  <div id="sum_result"></div>
+</div>
+```
+#### **`js/first-file.js`**
+``` js
+function sum(a, b) {
+  let c = a + b
+  const resultSumObject = document.getElementById('sum_result')
+  resultSumObject.textContent = c
+}
 ```
